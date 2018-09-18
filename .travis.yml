@@ -1,8 +1,5 @@
 language: python
 python
-scripts": {
-    "test": "mocha"
-  }
 
 print("Jogo do tente acertar o número de 0 a 20")
 from random import randint
