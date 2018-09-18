@@ -5,7 +5,10 @@ python:
 install:
     - make install
 script:
-    - make test
+    
 install:
   - pip install 
+  
+ test :
+    test.py
 
