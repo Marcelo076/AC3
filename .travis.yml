@@ -1,17 +1,3 @@
 language: python
 python
 
-print("Jogo do tente acertar o número de 0 a 20")
-from random import randint
-numero_aleatorio = randint(0,20)
-cnt = 1 
-while cnt != 0 :
-    chute = int(input("Chute um número para tentar acertar :"))
-    cnt +=1
-    if chute > numero_aleatorio :
-        print ("Chute um número mais baixo")
-    elif chute < numero_aleatorio:
-        print ("Chute um número maior ")
-    elif chute == numero_aleatorio:
-        print ("Parabéns você acertou em",cnt-1,"tentativas!!!")
-        cnt= cnt - cnt
