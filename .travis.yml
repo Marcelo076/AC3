@@ -8,5 +8,4 @@ script:
     - make test
 install:
   - pip install 
-test:
-    - test.py
+
