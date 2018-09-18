@@ -9,4 +9,4 @@ script:
 install:
   - pip install 
 test:
-    - py.test
+    - test.py
