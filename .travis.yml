@@ -6,7 +6,7 @@ install:
     - make install
 script:
     - make test
-
-
+install:
+  - pip install -r requirements.txt
 test:
     - py.test
