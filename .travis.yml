@@ -1,2 +1,5 @@
 language: python
 python
+scripts": {
+    "test": "mocha"
+  }
