@@ -10,6 +10,4 @@ script:
 install:
   - pip install 
   
- test :
-    test.py
 
