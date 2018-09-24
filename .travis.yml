@@ -5,9 +5,11 @@ python:
 install:
     - make install
 script:
-   test.py
+   make test.py
     
 install:
   - pip install 
+
+script: pytest
   
 
