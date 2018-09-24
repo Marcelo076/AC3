@@ -5,7 +5,7 @@ python:
 install:
     - make install
 script:
-    py.test
+   test.py
     
 install:
   - pip install 
